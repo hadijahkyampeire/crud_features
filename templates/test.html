@@ -1,0 +1,6 @@
+<form method="POST" action="{{ url_for('showSignUp') }}">
+	{{ form.email.label }}
+	{{ form.email }}
+<label>Submit</label>
+<a  href="{{url_for('showlogin')}}"><input class="button" name="signup" id="signup" tabindex="5" value="SIGNUP!" type="submit"> </a>
+</form>

@@ -1,0 +1,48 @@
+#signup{
+	background: green;
+	color: black;
+	text-align: center;
+	padding: 10px 15px;
+	width: 100px;
+	align-items: center;
+}
+#login{
+	background: lightblue;
+	color: black;
+	text-align: center;
+	padding: 10px 15px;
+	width: 100px;
+}
+#home{
+	background: lightblue;
+	color: black;
+	text-align: center;
+	padding: 10px 15px;
+	width: 100px;
+}
+#shoppings{
+	background: lightblue;
+	color: black;
+	text-align: center;
+
+	padding: 10px 15px;
+	width: 150px;
+}
+#body{
+	text-align: center;
+
+}
+#create{
+	background: grey;
+	color: black;
+	text-align: left;
+	padding: 10px 15px;
+	width: 100px;
+}
+#form1{
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-top: 50;
+	padding-right: 50px;
+	background: lightgrey;
+}

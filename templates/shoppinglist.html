@@ -1,0 +1,67 @@
+<head>
+    <title>Hadijahz Python shopping List App</title>
+ 
+ 
+   <link rel="stylesheet" href="static/style.css">
+   </head>
+
+
+<form id="form1" class="" method="get">
+
+<div class="row">
+	<div class="col-xs-12">
+		<div class="box">
+
+			<div class="box-header">
+	
+			</div>
+			<div class="box-content">
+
+				<table class="table table-bordered table-striped table-hover table-heading table-datatable" id="datatable-1">
+					<thead>
+                                                <tr>
+<div>
+					<div class="col-sm-3">
+      <input type="text" name="searchlist" placeholder="search lists "/>&nbsp;
+ 					</div>
+					<div class="col-sm-9">
+
+</div>                                       
+                                                </tr>
+						<tr>
+							<th>SHOPPING LIST AND IT'S BUDGET</th>&nbsp;&nbsp;
+							
+                                                               
+							<th></th>
+
+						</tr>
+					</thead>
+					
+	                       </table>
+			<input type="hidden" name="username" value="{{ user }}">
+               		</div>    
+	        
+		</form>
+
+		<form id="form2" class="" method="post">
+
+					<div class="col-sm-3">
+      <input type="text" name="listname" placeholder="NEW SHOPPING LIST "/>&nbsp;&nbsp;
+      <input type="text" name="budget" placeholder="20000"/>
+ 					</div>
+ 					<br>
+					<button type="submit" value="submit" class="btn btn-primary" id="create">CREAT A NEW SHOPPING LIST</button>
+                                        <input type="hidden" name="username" value="{{ user }}">
+        <br><br>
+        <tr>
+							
+							<td><a href="">VIEW ITEMS</a></td>
+                                                        &nbsp;&nbsp;
+							   
+							    <td><a href="">DELETE LIST</a></td>
+						</tr>
+ 						
+
+                </form>
+
+
